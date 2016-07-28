@@ -1,5 +1,5 @@
 {
-  "name": "angular2-quickstart",
+  "name": "angular2-app",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
@@ -9,7 +9,7 @@
     "pree2e": "npm run webdriver:update",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
     "lint": "tslint ./app/**/*.ts -t verbose",
-    "lite": "lite-server",
+    "lite": "lite-server --c bs-chrome.json",
     "postinstall": "typings install",
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "test-once": "tsc && karma start karma.conf.js --single-run",
@@ -19,8 +19,8 @@
     "webdriver:update": "webdriver-manager update"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ghita Pop",
+  "license": "MIT",
   "dependencies": {
     "@angular/common":  "2.0.0-rc.4",
     "@angular/compiler":  "2.0.0-rc.4",
@@ -61,5 +61,7 @@
     "protractor": "^3.3.0",
     "rimraf": "^2.5.2"
   },
-  "repository": {}
+  "repository": {
+    "url": "https://github.com/ghitapop/angular2-app.git"
+  }
 }
