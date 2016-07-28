@@ -1,0 +1,16 @@
+#light-box {
+  width: 150px;
+  height: 150px;
+  background-color: #00b0e8;
+  color: #ffffff;
+  margin: 1px 1px 1px 1px;
+  float: left;
+}
+
+#light-box-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 90px;
+}
+
+
