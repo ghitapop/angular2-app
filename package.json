@@ -62,6 +62,7 @@
     "rimraf": "^2.5.2"
   },
   "repository": {
-    "url": "https://github.com/ghitapop/angular2-app.git"
+    "type": "git",
+    "url": "git+https://github.com/ghitapop/angular2-app.git"
   }
 }
